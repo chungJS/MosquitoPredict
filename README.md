@@ -1,9 +1,11 @@
 # MosquitoPredict
 
 MosquitoPredict is a project that predicts the number of mosquitoes in Seoul and provides a yes-or-no answer to your vacation plans if you’re concerned about mosquitoes.
+
 The mosquito count is influenced by [weather](https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=c3a3273d67112aa4ffe0bdc3ef48d419&keyword=%EB%AA%A8%EA%B8%B0) and [water quality](https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=d2c2659107fad4e7ffe0bdc3ef48d419&keyword=%EB%AA%A8%EA%B8%B0%20%EC%88%98%EC%A7%88)
 
 Weather data from the National Weather Service, mosquito count data from Seoul and water quality data will be preprocessed using Python.
+
 The models will then be compared using R to determine the best model to provides answer
 
 <!-- vim-markdown-toc GFM -->
@@ -60,5 +62,7 @@ The low accuracy was due to the [abnormal](https://www.phwr.org/journal/view.htm
 ## Reference
 
 [장진영. "모기 밀도와 기후 요인과의 연관성." 국내석사학위논문 고려대학교 보건대학원, 2014. 서울](https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=c3a3273d67112aa4ffe0bdc3ef48d419&keyword=%EB%AA%A8%EA%B8%B0)
+
 [한중수. "국내 습지에 분포하는 모기유충의 서식처 특성 및 생물학적 방제기법 연구." 국내석사학위논문 상지대학교, 2019. 강원특별자치도](https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=d2c2659107fad4e7ffe0bdc3ef48d419&keyword=%EB%AA%A8%EA%B8%B0%20%EC%88%98%EC%A7%88)
+
 [Byung-Eon Noh, Soeun Shin, Hyunwoo Kim, Jung-Won Ju, Hee-Il Lee. Surveillance of Japanese Encephalitis Vector Mosquito Culex tritaeniorhynchus in the Republic of Korea, 2023. Public Health Weekly Report 2024;17:1021-1033.](https://www.phwr.org/journal/view.html?uid=716&vmd=Full)
