@@ -31,8 +31,8 @@ The models will then be compared using R to determine the best model to provides
 3. merge 2017~2022 data
 4. remove outliers
 
-- dataset
-  [![dataset](https://github.com/chungJS/predicts_mosquito/raw/main/img/preprocessed_dataset.png)]
+dataset
+![dataset](https://github.com/chungJS/predicts_mosquito/raw/main/img/preprocessed_dataset.png)
 
 ### Comparing
 
@@ -42,14 +42,14 @@ The models will then be compared using R to determine the best model to provides
 ### Result
 
 accuracy of each models using 2017~2022 dataset
-[![result](https://github.com/chungJS/predicts_mosquito/raw/main/img/result.png)]
+![result](https://github.com/chungJS/predicts_mosquito/raw/main/img/result.png)
 
 ## Conclusion
 
-가장 좋은 모델은 k=2인 KNN으로 23년도 날씨데이터와 수질데이터를 이용해 모기데이터를 예측해보았을때 정확도 75%
-[![knn_result](https://github.com/chungJS/predicts_mosquito/raw/main/img/knn_result.png)]
+The best model was KNN with k=2, achieving an accuracy of 75% when predicting mosquito data using 2023 weather and water quality data.
+![knn_result](https://github.com/chungJS/predicts_mosquito/raw/main/img/knn_result.png)
 낮은 정확도의 이유는 비정상적인 23년도의 [모기 개체수](https://www.phwr.org/journal/view.html?uid=716&vmd=Full)
-[![mosquito_count](https://github.com/chungJS/predicts_mosquito/raw/main/img/mosquito_count.png)]
+![mosquito_count](https://github.com/chungJS/predicts_mosquito/raw/main/img/mosquito_count.png)
 
 ## Reference
 
