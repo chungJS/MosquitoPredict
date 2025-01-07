@@ -2,6 +2,7 @@
 
 MosquitoPredict is a project that predicts the number of mosquitoes in Seoul and provides a yes-or-no answer to your vacation plans if you’re concerned about mosquitoes.
 The mosquito count is influenced by [weather](https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=c3a3273d67112aa4ffe0bdc3ef48d419&keyword=%EB%AA%A8%EA%B8%B0) and [water quality](https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=d2c2659107fad4e7ffe0bdc3ef48d419&keyword=%EB%AA%A8%EA%B8%B0%20%EC%88%98%EC%A7%88)
+
 Weather data from the National Weather Service, mosquito count data from Seoul and water quality data will be preprocessed using Python.
 The models will then be compared using R to determine the best model to provides answer
 
@@ -32,6 +33,7 @@ The models will then be compared using R to determine the best model to provides
 4. remove outliers
 
 dataset
+
 ![dataset](https://github.com/chungJS/predicts_mosquito/raw/main/img/preprocessed_dataset.png)
 
 ### Comparing
@@ -42,13 +44,16 @@ dataset
 ### Result
 
 accuracy of each models using 2017~2022 dataset
+
 ![result](https://github.com/chungJS/predicts_mosquito/raw/main/img/result.png)
 
 ## Conclusion
 
 The best model was KNN with k=2, achieving an accuracy of 75% when predicting mosquito data using 2023 weather and water quality data.
+
 ![knn_result](https://github.com/chungJS/predicts_mosquito/raw/main/img/knn_result.png)
 The low accuracy was due to the [abnormal](https://www.phwr.org/journal/view.html?uid=716&vmd=Full) mosquito population data in 2023.
+
 ![mosquito_count](https://github.com/chungJS/predicts_mosquito/raw/main/img/mosquito_count.png)
 
 ## Reference
