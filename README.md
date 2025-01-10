@@ -8,14 +8,10 @@ Weather data from the National Weather Service, mosquito count data from Seoul a
 
 The models will then be compared using R to determine the best model to provides answer
 
-<!-- vim-markdown-toc GFM -->
-
 - [Prerequisite](#Prerequisite)
 - [Features](#features)
 - [Conclusion](#Conclusion)
 - [Reference](#Reference)
-
-<!-- vim-markdown-toc -->
 
 ## Prerequisite
 
