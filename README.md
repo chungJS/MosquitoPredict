@@ -32,7 +32,7 @@ The models will then be compared using R to determine the best model to provides
 
 dataset
 
-![dataset](https://github.com/chungJS/MosquitoPredict/raw/main/img/preprocessed_dataset.png)
+![dataset](img/preprocessed_dataset.png)
 
 ### Comparing
 
@@ -43,17 +43,17 @@ dataset
 
 accuracy of each models using 2017~2022 dataset
 
-![result](https://github.com/chungJS/MosquitoPredict/raw/main/img/result.png)
+![result](img/result.png)
 
 ## Conclusion
 
 The best model was KNN with k=2, achieving an accuracy of 75% when predicting mosquito data using 2023 weather and water quality data.
 
-![knn_result](https://github.com/chungJS/MosquitoPredict/raw/main/img/knn_result.png)
+![knn_result](img/knn_result.png)
 
 The low accuracy was due to the [abnormal](https://www.phwr.org/journal/view.html?uid=716&vmd=Full) mosquito population data in 2023.
 
-![mosquito_count](https://github.com/chungJS/MosquitoPredict/raw/main/img/mosquito_count.png)
+![mosquito_count](img/mosquito_count.png)
 
 ## Reference
 
